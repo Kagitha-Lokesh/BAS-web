@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Login Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h3 style="font-family: cursive; height: 32px;">
+            <img src="./icon.png.jpg" alt="icon" style="height: 32px; width: 32px;"> Bhattu AStrology
+        </h3> 
+    </div>
+
+    <div class="details">
+        <h1>Welcome to Bhattu Astrology</h1>
+        
+        <form id="login-form">
+            <p style="font-size: large;">Please enter your details</p>
+            
+            <label for="user-name">Name:</label>
+            <input type="text" name="user-name" id="user-name" placeholder="Nii peru ivvu babu..." >
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" placeholder="Nii vayasu ivvu nayana..." >
+            <br><br>
+
+            <label for="raasi">Raasi:</label>
+            <select name="raasi" id="raasi" >
+                <option value="" disabled selected>Select One</option>
+                <option value="mesha">Mesha</option>
+                <option value="vrishabha">Vrishabha</option>
+                <option value="mithuna">Mithuna</option>
+                <option value="karkataka">Karkataka</option>
+                <option value="simha">Simha</option>
+                <option value="kanya">Kanya</option>
+                <option value="tula">Tula</option>
+                <option value="vrischika">Vrischika</option>
+                <option value="dhanusu">Dhanusu</option>
+                <option value="makara">Makaram</option>
+                <option value="kumbha">Kumbha</option>
+                <option value="meena">Meena</option>
+            </select>
+            <br><br>
+
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
+    <div class="content">
+        <p id="video-para1"></p>
+        <p id="video-para2"></p>
+    </div>
+    <div class="video-container" id="video-container">
+        <video id="videoplayer" controls autoplay >
+            <source src="./assets/happy1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="footer"><p>This is Not an accurate result..&#x1F605<br>This is Just an prediction and It generates an random video based on your Raasi..&#x1F917 <br>So If you Haven't noticed any of the give output don't ask me &#x1F601</p</div>
+    <script src="index.js"></script>
+    
+</body>
+</html>

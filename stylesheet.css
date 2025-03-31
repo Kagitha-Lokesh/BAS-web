@@ -1,0 +1,41 @@
+form{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.content{
+    text-align: left;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+.video-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+video {
+    width: 480px;
+    height: 260px;
+    /*border: 2px solid black;*/
+}
+#video-para{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
