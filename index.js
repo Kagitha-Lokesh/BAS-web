@@ -66,7 +66,7 @@ submit.onclick = function() {
     let usernameValue = usernameInput.value.trim();
     let raasiValue = raasiInput.value.trim();
 
-    if (ageValue === "" || usernameValue === "" || raasiValue === "") { 
+    if (ageValue === "" || usernameValue === "" || raasiValue === ""||age!==Number (age)) { 
         videopara.textContent = "Input sarigga Ivvu baabu...";
         
         video.src = "./assets/input_warning.mp4";
