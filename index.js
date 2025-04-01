@@ -51,7 +51,7 @@ const unluck = [
 
 
 
-age = Number(age)
+
 
 
 submit.onclick = function() { 
@@ -66,7 +66,7 @@ submit.onclick = function() {
     let usernameValue = usernameInput.value.trim();
     let raasiValue = raasiInput.value.trim();
 
-    if (ageValue === "" || usernameValue === "" || raasiValue === "" || isNaN(Number(ageValue))) { 
+    if (ageValue === "" || usernameValue === "" || raasiValue === "") { 
         videopara.textContent = "Input sarigga Ivvu baabu...";
         
         video.src = "./assets/input_warning.mp4";
